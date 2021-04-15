@@ -1,0 +1,19 @@
+{
+    "RNCA_report_type": "RNCA_Resource_Usage",
+    "report_version": "1",
+    "report_date": "2021-04-09 10:47:00",
+    "RNCA_resource_id": "...",
+    "RNCA_proj_ID": "...",
+    "proj_resource_type": "string (HPC | CLOUD | OTHER)",
+    "items": [
+        {
+            "job_id": "uint",
+            "job_state": "string (completed | failed | canceled | other)",
+            "proj_CPUcore_hours_COUNTER": "...",
+            "proj_GPU_hours_COUNTER": "...",
+            "proj_RAM_GB_COUNTER": "...",
+            "proj_Disk_GB_COUNTER": "...",
+            "comments": "..."
+        }
+    ]
+}
