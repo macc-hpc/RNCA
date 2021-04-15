@@ -9,11 +9,24 @@
         {
             "job_id": "uint",
             "job_state": "string (completed | failed | canceled | other)",
-            "proj_CPUcore_hours_COUNTER": "...",
-            "proj_GPU_hours_COUNTER": "...",
-            "proj_RAM_GB_COUNTER": "...",
-            "proj_Disk_GB_COUNTER": "...",
+            "proj_CPUcore_time": "...",
+            "proj_GPU_time": "...",
+            "proj_RAM": "...",
+            "proj_Disk": "...",
+            "proj_CPUcore_time_units": "string (seconds | ...)",
+            "proj_GPU_time_units": "string (seconds | ...)",
+            "proj_RAM_units": "string (GB | ...)",
+            "proj_Disk_units": "string (GB | ...)",
             "comments": "..."
         }
     ]
 }
+############################
+#
+#   "RNCA_resource_id": number given by FCT. Example: "1"=MACC::Bob
+#
+#    "RNCA_proj_ID": grant number number given by FCT on the scope
+#      of the administrative access process (ex.: number 
+#      given to the user on the scope of a national call, etc.)
+#
+#    "job_id": local significance
