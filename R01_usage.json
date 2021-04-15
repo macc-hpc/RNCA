@@ -3,10 +3,10 @@
     "report_version": "1",
     "report_date": "2021-04-09 10:47:00 (example)",
     "RNCA_resource_id": "...",
-    "RNCA_proj_ID": "...",
     "proj_resource_type": "string (HPC | CLOUD | OTHER)",
     "items": [
         {
+            "RNCA_proj_ID": "...",
             "job_id": "uint",
             "job_state": "string (completed | failed | canceled | other)",
             "proj_CPUcore_time": "...",
@@ -18,7 +18,10 @@
             "proj_RAM_units": "string (GB | ...)",
             "proj_Disk_units": "string (GB | ...)",
             "comments": "..."
-        }
+        },
+        {
+            ...
+        },
     ]
 }
 ############################
