@@ -1,7 +1,7 @@
 {
     "RNCA_report_type": "RNCA_Resource_status",
     "report_version": "1",
-    "report_date": "2021-04-09 10:47:00",
+    "report_date": "2021-04-09 10:47:00  (example)",
     "RNCA_resource_id": "...",
 
     "resource_general_Status": "(green, yellow, red)",
