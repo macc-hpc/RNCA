@@ -8,7 +8,7 @@
     "resource_percentage_UP": "(0 - 100)",
     "resource_percentage_Usage": "(0 - 100)",
 
-    # "detail" is optional
+    # the following "detail" is optional
 
     "detail": [
         {
