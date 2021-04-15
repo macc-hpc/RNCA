@@ -1,13 +1,19 @@
 {
     "RNCA_report_type": "RNCA_Resource_status",
-    "RNCA_resource_id": "...",
-    "RNCA_resource_name": "...",
     "report_version": "1",
-    "report_date": "2021-04-09 10:47:00",       
+    "report_date": "2021-04-09 10:47:00",
+    "RNCA_resource_id": "...",
+
+    "resource_general_Status": "(green, yellow, red)",
+    "resource_percentage_UP": "(0 - 100)",
+    "resource_percentage_Usage": "(0 - 100)",
+
+    # "detail" is optional
+
     "detail": [
         {
             "element_type": "(compute node, storage node, ...)",
-            "element_id": "...com significado local",
+            "element_id": "...local significance",
             "element_name": "...",
             "resource_general_Status": "(green, yellow, red)",
             "resource_percentage_UP": "(0 - 100)",
@@ -20,3 +26,7 @@
     ],
     "comments": "…",
 }
+############################
+#
+#   "RNCA_resource_id": number given by FCT. Example: "1"=MACC::Bob
+#
