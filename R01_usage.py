@@ -1,7 +1,11 @@
 ##############################################
 #
 #  RNCA reporting syntax for technical reporting
-#  September 2021
+#  Generates sample JSON output
+#  Please read
+#       R01_usage_output.txt
+#       R01_usage_output_explained.txt
+#  September 2021, FCT-FCCN
 #
 
 import json 
@@ -61,25 +65,3 @@ print(json_object)
 json_object = json.dumps(sample_data_cloud, indent = 4) 
 print(json_object)
 
-# More information:
-
-#     "RNCA_resource_id" = ID given by FCT. ID of the technological platform
-#        on a operational center
-       
-#     "RNCA_proj_ID" = ID given by FCT. ID of an approved project by FCT
-
-    
-#############################
-#https://www.geeksforgeeks.org/how-to-convert-python-dictionary-to-json/
-# head  HPC01_202108300100_usage.CSV
-#JobIDRaw|User|Partition|Submit|Start|Elapsed|AllocCPUS|CPUTime|CPUTimeRAW|MaxRSS|State|NodeList|Account
-    ############
-#    JobIDRaw|User|Account|Partition|Submit|Start|Elapsed|AllocTRES|CPUTime|CPUTimeRAW|MaxRSS|State|NodeList
-
-#52985|psilva|base|2021-08-05T11:05:32|2021-08-29T18:55:04|02:25:45|1152|116-14:24:00|10074240||COMPLETED|c805-[901,903-904],c817-[001-002,102-104,201-202,502-503,601-604,701-704,802-804,901-904],c821-[002-004,101-104,201-204,702-704,802-804,901,903-904],c823-[001-004,101-104,201,303-304,401-404,501-504,601,704,801-804]|cpca_a2_7085_2020
-
-####################
-#Account,CPU Hours,Disk GB-Hours,RAM MB-Hours,Servers
-#covid-synergy,2688.0,6720.0,5505024.0,1
-#epicovpt,None,None,None,None
-#inescid,1848.0,15120.0,2236416.0,3
