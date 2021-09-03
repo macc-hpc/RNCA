@@ -10,6 +10,9 @@
  R01_usage_output_explained.txt
      Details
 
+ git_CP.sh
+     Utility script
+     
 ------------------------------------------- about GIT
 
 read only:
