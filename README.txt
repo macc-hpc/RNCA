@@ -2,7 +2,7 @@
 ------------------------------------------- files
  
  R01_usage.py
-     Syntax for RNCA's report 01 = "weekly" usage report
+     Practical syntax for RNCA's report 01 = "weekly" usage report
 
  R01_usage_output.txt
      Sample script's output

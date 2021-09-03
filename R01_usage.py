@@ -1,6 +1,6 @@
 ##############################################
 #
-#  RNCA reporting syntax for technical reporting
+#  RNCA practical reporting syntax for technical reporting
 #  Generates sample JSON output
 #  Please read
 #       R01_usage_output.txt
