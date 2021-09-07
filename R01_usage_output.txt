@@ -32,17 +32,17 @@
     "items": [
         {
             "Servers_number": "3", 
-            "RAM_MB": "2000", 
-            "CPUcore_sec": "1100", 
-            "RNCA_proj_ID": "CPCA21/4", 
-            "Disk_GB": "20900"
+            "CPUcore_hours": "1100", 
+            "Disk_GB_hours": "20900", 
+            "RAM_MB_hours": "2000", 
+            "RNCA_proj_ID": "CPCA21/4"
         }, 
         {
-            "Servers_number": "3", 
-            "RAM_MB": "2000", 
-            "CPUcore_sec": "1100", 
-            "RNCA_proj_ID": "CPCA21/4", 
-            "Disk_GB": "20900"
+            "Servers_number": "1", 
+            "CPUcore_hours": "100", 
+            "Disk_GB_hours": "2000", 
+            "RAM_MB_hours": "200", 
+            "RNCA_proj_ID": "CPCA21/5"
         }
     ]
 }

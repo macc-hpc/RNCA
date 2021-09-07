@@ -47,17 +47,17 @@ sample_data_cloud ={
     "items": [
         {
             "RNCA_proj_ID": "CPCA21/4",
-            "CPUcore_sec": "1100",
-            "Disk_GB": "20900",
-            "RAM_MB": "2000",
+            "CPUcore_hours": "1100",
+            "Disk_GB_hours": "20900",
+            "RAM_MB_hours": "2000",
             "Servers_number": "3",
         },
         {
-            "RNCA_proj_ID": "CPCA21/4",
-            "CPUcore_sec": "1100",
-            "Disk_GB": "20900",
-            "RAM_MB": "2000",
-            "Servers_number": "3",
+            "RNCA_proj_ID": "CPCA21/5",
+            "CPUcore_hours": "100",
+            "Disk_GB_hours": "2000",
+            "RAM_MB_hours": "200",
+            "Servers_number": "1",
         },
     ]
 } 
