@@ -10,6 +10,9 @@
  R01_usage_output_explained.md
      Details explained
 
+ FCCN/R01_converter.py
+     Script to convert a Slurm CSV output to JSON format
+
  git_CP.sh
      Utility script
      
