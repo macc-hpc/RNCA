@@ -1,10 +1,13 @@
 ##############################################
 #
 #  RNCA practical reporting syntax for technical reporting
+#
 #  Generates sample JSON output
+#
 #  Please read
 #       R01_usage_output.txt
 #       R01_usage_output_explained.txt
+#
 #  September 2021, FCT-FCCN
 #
 
