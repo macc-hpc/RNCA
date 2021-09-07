@@ -1,0 +1,22 @@
+
+--------------------------------------------------
+Notes about the report type  "Resource_Usage_HPC"
+
+A weekly report should be produced that includes at least 2 weeks worth
+of (Slurm) data.
+
+The data ingestion protocol will discard records already in the central
+database.
+
+--------------------------------------------------
+Notes about the report type  "Resource_Usage_Cloud"
+
+A weekly report should be produced that includes values regarding
+**only** records from the last updated report
+
+--------------------------------------------------
+General Notes
+
+"RNCA_resource_id"=    ID given by FCT. ID of the technological platform on a operational center
+
+"RNCA_proj_ID" =  ID given by FCT. ID of an approved project by FCT
