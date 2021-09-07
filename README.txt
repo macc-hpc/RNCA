@@ -13,7 +13,7 @@
  git_CP.sh
      Utility script
      
-------------------------------------------- about GIT
+------------------------------------------- about project files (GIT)
 
 read only:
 
