@@ -38,16 +38,20 @@ sample_data_HPC ={
             "Disk_GB": "2000",
         },
     ]
-} 
+}
+####################
+# version history:
+# V1.1- added GPU capability
 sample_data_cloud ={
     "report_type": "Resource_Usage_cloud",
-    "report_version": "1.0",
+    "report_version": "1.1",
     "report_date": "2021-04-09 10:47:00",
     "RNCA_resource_id": "6b4e1dae-c64d-47da-b740-83454815d773",
     "items": [
         {
             "RNCA_proj_ID": "CPCA21/4",
             "CPUcore_hours": "1100",
+            "GPU_hours": "",
             "Disk_GB_hours": "20900",
             "RAM_MB_hours": "2000",
             "Servers_number": "3",
@@ -55,6 +59,7 @@ sample_data_cloud ={
         {
             "RNCA_proj_ID": "CPCA21/5",
             "CPUcore_hours": "100",
+            "GPU_hours": "100",
             "Disk_GB_hours": "2000",
             "RAM_MB_hours": "200",
             "Servers_number": "1",
