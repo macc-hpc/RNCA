@@ -41,7 +41,7 @@ sample_data_HPC ={
 }
 ####################
 # version history:
-# V1.1- added GPU capability
+# V1.1, 9-sep-2021 - added GPU capability
 sample_data_cloud ={
     "report_type": "Resource_Usage_cloud",
     "report_version": "1.1",
